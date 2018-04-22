@@ -1,0 +1,60 @@
+#process-block {
+  padding: 10px 0 70px;
+  background-color: $light-grey;
+  .btn {
+    display: inline-block;
+    width: 250px;
+  }
+}
+
+.process-steps-wrap {
+  padding: 40px 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.process-steps-inner-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.process-step-block {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  margin: 0 10px;
+}
+
+.process-arr-cont {
+  margin-top: 80px
+}
+
+.process-step-img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.process-step-desc {
+  font-size: 18px;
+  color: $dark-grey;
+}
+
+.process-steps-line {
+  position: absolute;
+  width: 62%;
+  margin: auto;
+  top: 39%;
+  left: 19%;
+  z-index: 10;
+  height: 2px;
+  background: $yellow;
+  align-self: center;
+}

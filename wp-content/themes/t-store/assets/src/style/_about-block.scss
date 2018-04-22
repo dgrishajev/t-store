@@ -1,0 +1,105 @@
+.about-title {
+  margin: 40px auto -10px;
+}
+
+.about-sub-blocks-wrap {
+  padding: 20px 80px 60px;
+  @extend .clearfix;
+}
+
+.about-sub-block {
+  width: 25%;
+  float: left;
+}
+
+.about-sub-block-image-cont {
+  margin: 40px auto;
+  width: 150px;
+  height: 150px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+  border-radius: 50%;
+}
+
+.about-sub-block-title {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $dark-grey;
+}
+
+.about-sub-block-desc {
+  font-size: 16px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.advantages-slider {
+  width: 80%;
+  margin: 40px auto 80px !important;
+}
+
+.advantage-slide {
+  display: flex !important;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  outline: none;
+  margin: 0 20px;
+}
+
+.advantage-img {
+  width: 66.66%;
+}
+
+.advantage-right-block {
+  width: 33.33%;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.advantage-title {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.advantage-desc {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+}
+
+.slick-dots {
+  bottom: -35px;
+}

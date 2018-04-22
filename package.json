@@ -1,0 +1,30 @@
+{
+  "name": "t-store",
+  "version": "1.0.0",
+  "description": "A website developed for UA clothing store",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dgrishajev/t-store.git"
+  },
+  "author": "Dominic Grishajev",
+  "license": "ISC",
+  "homepage": "https://github.com/dgrishajev/t-store.git#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-livereload": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "latest",
+    "gulp-watch": "latest",
+    "jquery": "latest",
+    "slick-carousel": "^1.6.0",
+    "webpack-stream": "latest"
+  }
+}

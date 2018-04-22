@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('assets/build/font/lato-bold-webfont.eot');
+    src: url('assets/build/font/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/build/font/lato-bold-webfont.woff2') format('woff2'),
+         url('assets/build/font/lato-bold-webfont.woff') format('woff'),
+         url('assets/build/font/lato-bold-webfont.ttf') format('truetype'),
+         url('assets/build/font/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lato Light';
+    src: url('assets/build/font/lato-light-webfont.eot');
+    src: url('assets/build/font/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/build/font/lato-light-webfont.woff2') format('woff2'),
+         url('assets/build/font/lato-light-webfont.woff') format('woff'),
+         url('assets/build/font/lato-light-webfont.ttf') format('truetype'),
+         url('assets/build/font/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('assets/build/font/lato-regular-webfont.eot');
+    src: url('assets/build/font/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/build/font/lato-regular-webfont.woff2') format('woff2'),
+         url('assets/build/font/lato-regular-webfont.woff') format('woff'),
+         url('assets/build/font/lato-regular-webfont.ttf') format('truetype'),
+         url('assets/build/font/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: url('assets/build/font/futuramediumc-webfont.eot');
+  src: url('assets/build/font/futuramediumc-webfont.eot?#iefix') format('embedded-opentype'),
+       url('assets/build/font/futuramediumc-webfont.woff2') format('woff2'),
+       url('assets/build/font/futuramediumc-webfont.woff') format('woff'),
+       url('assets/build/font/futuramediumc-webfont.ttf') format('truetype'),
+       url('assets/build/font/futuramediumc-webfont.svg#futuramediumcregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Book';
+  src: url('assets/build/font/AvenirLTStd-Book.eot');
+  src: url('assets/build/font/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+       url('assets/build/font/AvenirLTStd-Book.woff2') format('woff2'),
+       url('assets/build/font/AvenirLTStd-Book.woff') format('woff'),
+       url('assets/build/font/AvenirLTStd-Book.ttf') format('truetype'),
+       url('assets/build/font/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

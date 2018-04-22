@@ -1,0 +1,103 @@
+#clients-block {
+  padding: 0;
+  background-color: #fff;
+}
+
+.clients-slider {
+  margin-bottom: 25px;
+  padding: 40px 120px 40px;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.client-block {
+  outline: none;
+}
+
+.client-block a {
+  display: block;
+  outline: none;
+}
+
+.client-logo-img {
+  margin: auto;
+}
+
+.clients-numbers-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 482px;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  background: url(assets/build/img/jpg/clients-numbers-bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .title {
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    z-index: 10;
+    position: relative;
+    margin: 0 auto 50px;
+  }
+}
+
+.clients-numbers-inner-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-number-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33.33%;
+  z-index: 10;
+  &:nth-child(3) .client-number:after {
+    content: '%';
+    display: inline-block;
+  }
+}
+
+.client-number {
+  margin: 0 auto -20px;
+  font-family: 'Avenir Book', sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.client-number-title {
+  font-weight: 400;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.arr {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  cursor: pointer;
+}
+
+.arr-left {
+  left: 80px;
+}
+
+.arr-right {
+  right: 80px;
+}
+
+.arr svg {
+  width: 32px;
+}

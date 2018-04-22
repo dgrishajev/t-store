@@ -1,0 +1,38 @@
+.main-footer {
+  padding: 16px 0 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.footer-inner-wrap {
+  display: inline-block;
+}
+
+.footer-social-wrap {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 0 2px;
+  svg {
+    width: 100%;
+    height: auto;
+    path {
+      fill: #fff;
+    }
+  }
+  &:hover svg path {
+    fill: $light-grey;
+  }
+}
+
+.footer-inner-text {
+  max-width: 100%;
+  margin: 2px auto 16px;
+  font-size: 11px;
+}
+
+.social-link {
+  display: inline-block;
+}

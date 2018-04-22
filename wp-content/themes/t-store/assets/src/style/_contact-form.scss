@@ -1,0 +1,139 @@
+#contact-form-modal {
+  display: none;
+  width: 60%;
+  padding: 40px;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  margin: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.phone-icon-cont {
+  margin: 25px auto;
+}
+
+label {
+  width: 100%;
+}
+
+.wpcf7-form p:nth-of-type(2) {
+  display: none;
+}
+
+.wpcf7-form p:last-of-type {
+  position: relative;
+}
+
+.wpcf7-form-control  {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px $dark-grey;
+  outline: none;
+  font-weight: 400;
+}
+
+.wpcf7-submit {
+  @extend .btn;
+  border-color: $yellow;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Lato', 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9b9b9b;
+  opacity: 0.7;
+}
+::-moz-placeholder {
+  font-family: 'Lato', 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9b9b9b;
+  opacity: 0.7;
+}
+:-ms-input-placeholder {
+  font-family: 'Lato', 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9b9b9b;
+  opacity: 0.7;
+}
+:-moz-placeholder {
+  font-family: 'Lato', 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9b9b9b;
+  opacity: 0.7;
+}
+
+.wpcf7-not-valid-tip {
+  display: none !important;
+}
+
+.wpcf7-not-valid {
+  border-color: #da4545;
+}
+
+div.wpcf7 .ajax-loader {
+  margin: 0 0 0 14px;
+  position: absolute;
+  top: calc(50% - 8px);
+}
+
+div.wpcf7-response-output {
+  width: 100%;
+  margin-bottom: 2em auto -5px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+div.wpcf7-validation-errors {
+  background-color: #d8cd2d;
+  border-color: #d8cd2d;
+}
+
+div.wpcf7-mail-sent-ok {
+  display: none !important;
+  background-color: #43c709;
+  border-color: #43c709;
+}
+
+div.wpcf7-mail-sent-ng {
+    border-color: #da4545;
+    background-color: #da4545;
+}
+
+.contact-form-inner-success {
+  display: none;
+  padding: 100px 0;
+}
+
+.contact-form-success-text {
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.contact-success-btn {
+  padding: 6px 18px;
+  font-size: 20px;
+  color: $yellow !important;
+  background-color: transparent !important;
+  border: 1px solid $yellow !important;
+  &:hover {
+    background-color: $yellow !important;
+    color: #fff !important;
+  }
+}

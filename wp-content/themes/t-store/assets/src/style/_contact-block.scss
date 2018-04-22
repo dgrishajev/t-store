@@ -1,0 +1,34 @@
+#contact-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(assets/build/img/jpg/contact-img.jpg);
+  color: #fff;
+  .btn {
+    margin-top: 10px;
+    max-width: 90%;
+  }
+}
+
+.contact-title {
+  font-size: 27px;
+  font-weight: 400;
+  margin: 50px auto 10px;
+}
+
+.contact-subtitle {
+  margin: 10px auto;
+  font-size: 30px;
+  font-weight: 400;
+  a {
+    color: #fff;
+    &:hover {
+      color: $light-grey;
+    }
+  }
+}

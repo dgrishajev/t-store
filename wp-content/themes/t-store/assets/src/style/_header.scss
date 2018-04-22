@@ -1,0 +1,150 @@
+.main-header {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 40px;
+  position: absolute;
+  z-index: 100;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  @extend .clearfix;
+  &.scrolled {
+    background-color: #fff;
+    border-bottom: 1px solid $yellow;
+    .header-logo g#Main {
+      fill: $yellow;
+    }
+    .top-menu .menu-item {
+      a {
+        color: $yellow;
+        &:hover,
+        &.active {
+          color: $yellow;
+          border-bottom: 1px solid;
+        }
+      }
+      &.en-page-link,
+      &.ua-page-link,
+      &.ru-page-link {
+        width: 30px;
+        height: 30px;
+        margin: -8px;
+      }
+    }
+  }
+}
+
+.header-logo {
+  margin-top: 6px;
+  float: left;
+}
+
+.header-logo-link {
+  display: inline-block;
+}
+
+.top-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2em;
+  .menu-item {
+    display: inline-block;
+    &.lang-link-item {
+      width: 30px;
+      height: 30px;
+      margin: -8px 12px;
+      cursor: pointer;
+    }
+    @each $lang-slug in en, ua, ru {
+      &.#{$lang-slug}-page-link-item {
+        background: url(assets/build/img/svg/#{$lang-slug}.svg) center center no-repeat;
+      }
+    }
+    a {
+      margin: 4px 16px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      transition: all 0.2s;
+      &:hover,
+      &.active {
+        border-bottom: 1px solid;
+      }
+    }
+  }
+}
+
+.hamburger-icon {
+  display: none;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  .hamburger-icon-bar {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: $yellow;
+    border-radius: 3px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    &:nth-child(1) {
+      top: 0px;
+    }
+    &:nth-child(2),
+    &:nth-child(3) {
+      top: 8px;
+    }
+    &:nth-child(4) {
+      top: 16px;
+    }
+  }
+  &.opened {
+    .hamburger-icon-bar {
+      &:nth-child(1) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+      }
+      &:nth-child(2) {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      &:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+      &:nth-child(4) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+      }
+    }
+  }
+}
